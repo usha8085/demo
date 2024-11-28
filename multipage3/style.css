@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background: url(/fruits.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.navabar{
+    background-color:white;
+}
+.navabar ul{
+   margin-left: 90px;
+    display: flex;
+}
+.navabar ul li a{
+    color: crimson;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.navabar ul li{
+    list-style: none;
+    margin: 40px;
+    
+}
+.card{
+    display: flex;
+    gap: 30px;
+    margin-left: 10px;
+}
+.fruits{
+    color: crimson;
+    margin-left: 600px;
+}
+.btn{
+    font-size: 20px;
+    color: white;
+    background-color: crimson;
+}
+.card h1{
+    color: chocolate;
+}
+.card h3{
+    color: blue;
+}

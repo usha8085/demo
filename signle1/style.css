@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background: url(/hamburger.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    background-color:white;
+}
+.navbar ul{
+    margin-left: 1200px;
+}
+.navbar ul li a{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    display: flex;
+}
+.para{
+    color:black;
+}
+.para1{
+    margin-top: 450px;
+}
+.parent{
+    display: flex;
+    margin-left:200px ;
+}
+.parent .child1{
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.parent .child img{
+    height: 500px;
+    width: 500px;
+}
+.card{
+    display: flex;
+    margin-left: 50px;
+    gap: 20px;
+}
+.btn{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+   
+}
+.card1 h1{
+    color: brown;
+}
+.card1 h2{
+    color: crimson;
+}
+.parent1{
+    display: flex;
+}
+.children1{
+    margin-left: 240px;
+}
+.children{
+ 
+    margin-left: 100px;
+}
+.children h1{
+    margin-left: 100px;
+}
+.para1 h1{
+margin-left: 20px;
+}
+.para1 p{
+    margin-left: 20px;
+}
+.para1 h2{
+    color: cadetblue;
+    margin-left: 20px;
+}

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+}
+.menu{
+    background-color: rgb(62, 58, 70);
+height: 80px;
+width: auto;
+  
+}
+.menu ul li {
+    list-style: none;
+    margin: 0 2px;
+    display: inline-block;
+    line-height: 40px; 
+}
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 35px;
+    padding:  10px;
+    font-family: 'Robote , sans-serif';
+    transition: 4s;
+    margin-left: 90px;
+}
+
+.wraper{
+    background: url(/cofe.jpg) no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+.htt{
+    color: white;
+}
+.head h1{
+    color: crimson;
+    margin-left: 600px;
+}
+.card{
+  display:flex;
+  margin-left: 70px;
+  gap: 30px;
+}
+.card h2{
+color: blue;
+
+}
+.card h1{
+ color: darkred;
+}
+.card .btn{
+    color:white;
+   background-color: black;
+   border-color:white;
+   border-radius: 500px;
+   height: 30px;
+   width: 80px;
+}
+.servicess img{
+    height: 400px;
+    width: 600px;
+    
+}
+.servicess {
+    display: flex;
+    background-color:darkgrey;
+    margin-left: 20px;
+}
+.servicess .paragraf{
+    margin-left: 20px;
+}
+.servicess .paragraf  h1{
+    color: coral;
+    margin-top: 80px;
+}
+.servicess .paragraf  h4{
+    padding: 20px;
+    margin-bottom: 60px;
+    color: blue;
+}
+.feadback{
+    margin-left: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    }
+    
+    footer .container {
+    max-width: 800px;
+    margin: 0 auto;
+    }
+    
+    footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    footer li {
+        display: inline-block;
+        margin-left: 20px;
+        }
+        
+        footer a {
+        color: #fff;
+        text-decoration: none;
+        }
+        
+        footer a:hover {
+        color: #ccc;
+        }
+        
+    
+
+
+
+

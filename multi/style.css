@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.wraper{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space;
+    height: 100px;
+}
+.wraper ul{
+    display: flex;
+}
+.wraper ul li a{
+    color: white;
+    margin-right: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+
+.hero{
+    background-image: url(/dulhon.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+.para{
+    display: flex;
+}
+.para .card1 img{
+    height: 400px;
+    width: 700px;
+    margin-left: 300px;
+}
+.para .card h1{
+    color: crimson;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.para .card h4{
+    color: darkorchid;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.box{
+    display: flex;
+    margin-left: 7px;
+    gap: 10px;
+}
+.box1 h1{
+    color: crimson;
+
+}
+.box1 h2{
+    color: blue;
+}
+.btn{
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    border-radius: 40px;
+    border: 3px solid black;
+}
+.box2{
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+}
+.boxxing{
+    margin-left: 400px;
+ 
+}
+.boxxing img{
+    height: 400px;
+    width: 600px;
+}
+.menu{
+    margin-left: 30px;
+    gap: 10px;
+}

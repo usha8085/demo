@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.hero{
+    background-image: url(/break3.jpg) ;
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+
+}
+
+
+.navbar{
+   background-color:white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li a{
+    color:crimson;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-size: bold;
+    text-decoration: none;
+    
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+display: inline-block;
+    line-height: 80px;
+} 
+.nasta{
+    color: crimson;
+    margin-left: 600px;
+}
+
+.food{
+    display: flex;
+    color: rgb(247, 244, 244);
+    margin-left: 600px;
+    margin-top: 30px;
+    margin-right: 40px;
+
+
+}
+
+
+.card{
+ background-color: bisque;
+    height: 500px;
+    width: 1350px;
+}
+.card{
+    display: flex;
+    margin-left: 20px;
+}
+.m  img{
+    height: 400px;
+    width: 600px;
+    border-radius: 100px;
+
+}
+.kkk{
+  margin-left: 90px;
+  color:black;
+  margin-top: 90px;
+  font-style:oblique;
+    font-weight: bold;
+}
+.servicess{
+    margin-left: 18px;
+}
+
+
+.m{
+    display: flex;
+    margin-top: 20px;
+    background-color:white;
+    margin-left: 20px;
+}
+.kkk h1{
+    margin-left: 80px;
+    color: darkorange;
+   
+
+}
+.kkk h2{
+    
+   color:crimson;
+}
+.kkk p{
+    margin-top: 50px;
+}
+ .box{
+    background-color: bisque;
+    height: 300px;
+    width: 1350px;
+ }   
+.box{
+    display: flex;
+    margin-left: 10px;
+}
+.box1 h1{
+    color: chocolate;
+}
+.box1{
+    border-radius: 100px;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+footer {
+    background-color:rgb(15, 15, 15);
+    color:red;
+    padding: 20px 0;
+}
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex-basis: 30%;
+    padding: 20px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    background-color:rgb(17, 17, 17);
+    padding: 10px 0;
+    clear: both;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 20px;
+}
+.border .main-card button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.border .main-card h2{
+    color: chocolate;
+}
+.border .main-card h1{
+    color: maroon;
+}
+
+.main-card img{
+    width: 100%;
+}
+.form input{
+    width: 15cm;
+    height: 1cm;
+    gap: 2px;
+    padding: 20px;
+
+}
+label{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.fooder{
+    color: aliceblue;
+}
+.form .form1{
+    height: 350px;
+    width: 600px;
+
+}
+.form1{
+  margin-left: 50px;
+  color: brown;
+  margin-top: 90px;
+}
+.form{
+    display: flex;
+    margin-top: 10px;
+    background-color:white;
+}
+.container{
+    color:crimson ;
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50% , -50%);
+    font-family: sans-serif;
+    user-select: none;
+    margin-left: 100px;
+    padding: 50px;
+}
+.center h1{
+    color: rgb(6, 6, 6);
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    padding: 30px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.center h2{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 800px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.center .buttons{
+    margin: 35px 280px;
+}
+.amazone{
+    color: #d9e0f3;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: rgb(11, 10, 10);
+    border: 1px solid #0c0b0b;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition:  .5s;
+    margin-left: 100px;
+  }
+  .buttons .btn{
+      margin-left: 50px;
+  }
+  .buttons button:hover,
+  .btn:hover {
+      background: #0b0b0b;
+      color: white;
+  }
+
+
+
+  
+  .login{
+    
+    background: #05ed89;
+    display: flex;
+    justify-content: center;
+    min-height: 50vh;
+
+  }
+.wraper{
+    background: #bd067a;
+    color: white;
+    height: 300px;
+    width: 500px;
+   
+}
+.wraper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wraper .input-kk{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-kk input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(11, 11, 11);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+   
+
+
+}
+ .input-kk input::placeholder{
+    color: white;
+
+ }
+ .input-kk i{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transform: translate(-20%);
+    font-size: 20px;
+ }
+
+ .login-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  background-color: cornsilk;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    form {
+    margin-top: 20px;
+    }
+    label {
+        display: block;
+        margin-bottom: 10px;
+        }
+        
+        input[type="text"], input[type="password"] {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        }
+        
+        form {
+            margin-top: 20px;
+            }
+            label {
+                display: block;
+                margin-bottom: 10px;
+                }
+                
+                input[type="text"], input[type="password"] {
+                width: 100%;
+                height: 40px;
+                margin-bottom: 20px;
+                padding: 10px;
+                border: 1px solid #ccc;
+                }
+                
+            
